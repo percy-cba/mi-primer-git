@@ -300,6 +300,16 @@ nav > img {
 
 @media only screen and (min-width:320px) {
 
+    /* HOME  */
+
+#main #home .container .row .repairs-spot > h2 {
+    font-size: 1.5em;
+}    
+#main #home .container .row .repairs-spot {
+    background-color: #726e68;
+    margin: 3rem 0;
+}
+
     /* ABOUT US */
 
 #main #aboutUs {
@@ -319,6 +329,18 @@ nav > img {
     line-height: 70px;
 }    
 
+}
+
+
+    /* MEDIA QUERY >= 576PX */
+
+@media only screen and (min-width: 576px) {
+
+    /* HOME */
+    
+#main #home .container .row .repairs-spot > h2 {
+    font-size: 2em;
+}  
 
 }
 
@@ -326,7 +348,11 @@ nav > img {
 
 @media only screen and (min-width:768px) {
 
-    /* HOME (carousel) */
+    /* HOME */
+
+#main #home .container .row .repairs-spot > h2 {
+    font-size: 2.5em;
+}  
 .container-carousel {
     width: 90%;
 }
