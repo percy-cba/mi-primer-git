@@ -1,0 +1,399 @@
+
+
+    /* NAV */
+
+nav {
+    background-color: #E8B20A;
+}
+
+.nav-item2:hover {
+    color: chartreuse !important;
+}
+
+nav > img {
+    border-radius: 50px;
+}
+
+    /* MAIN */
+
+#main {
+    background-color: #2d627a;
+}
+
+    /* HOME */
+
+#home .container .row  .title > span,h1 {
+    font-size: 3em;
+}
+
+#home .container .row  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .container .row  .title .icon > img { /* iconos de mi título */
+    width: 4em;
+    border-radius: 30px;
+}
+
+#home .container .row .bosses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .container .row .bosses > img { /* img jefes */
+    width: 70%;
+    height: 14em;
+    margin-top: 15px;
+}
+
+.container-carousel {
+    width: 80%;
+}
+
+.carousel-inner .content-carousel > img {
+    height: 12em;
+}
+
+#main #aboutUs .container .row div > img {
+    width: 15em;
+}
+
+#footer {
+    background-image: linear-gradient(to left, #36A9D8, #21404D);
+}
+
+#footer .row div > h2 {
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+    /* ABOUT US */
+
+#main #aboutUs {
+    height: 700px;
+}
+
+#main #aboutUs .container .row div:nth-child(1) div > h1 {
+    line-height: 100px;
+    transition: all;
+    animation-name: aboutUs;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    display: inline-block;
+}
+
+@keyframes aboutUs{
+    0% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    20% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    25% {
+        transform: rotate(15deg);
+        color: red;
+    }
+    50% {
+        transform: rotate(10deg);
+        color: white;
+    }
+    75% {
+        transform: rotate(5deg);
+        color: seagreen;
+    }
+    100% {
+        transform: rotate(0deg);
+        color: darkorange;
+    }
+}
+
+#main #aboutUs .container .row div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}     
+
+#main #aboutUs .container .row div > img {
+    height: 80%;
+}
+
+    /* PRODUCTS AND SERVICES */
+
+#main #productAndServices {
+    height: 700px;
+}    
+
+#main #productAndServices .container .row div:nth-child(1) div > h1 {
+    line-height: 100px;
+    transition: all;
+    animation-name: productsAndServices;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    display: inline-block;
+}
+
+@keyframes productsAndServices{
+    0% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    20% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    25% {
+        transform: rotate(15deg);
+        color: red;
+    }
+    50% {
+        transform: rotate(10deg);
+        color: white;
+    }
+    75% {
+        transform: rotate(5deg);
+        color: seagreen;
+    }
+    100% {
+        transform: rotate(0deg);
+        color: darkorange;
+    }
+}
+
+#main #productAndServices .container .row div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}   
+
+#main #productAndServices .container .row div > img {
+    height: 80%;
+}
+
+    /* CONTACT */
+
+#main #contact .container .row div:nth-child(1) div > h1 {
+    line-height: 100px;
+    transition: all;
+    animation-name: contact;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    display: inline-block; 
+}    
+
+@keyframes contact{
+    0% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    20% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    25% {
+        transform: rotate(15deg);
+        color: red;
+    }
+    50% {
+        transform: rotate(10deg);
+        color: white;
+    }
+    75% {
+        transform: rotate(5deg);
+        color: seagreen;
+    }
+    100% {
+        transform: rotate(0deg);
+        color: darkorange;
+    }
+}
+
+#main #contact .container .row > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main #contact .container .row div:nth-child(2) > img {
+    width: 15em;
+} 
+
+#main #contact .container .row >  div:nth-child(3) {
+    margin-top: 15px;
+}
+
+#main #contact .container .row div:nth-child(3) form > textarea {
+    width: 100%;
+}
+
+    /* LOCATION */
+
+#main #location .container .row div:nth-child(1) div > h1 {
+    line-height: 100px;
+    transition: all;
+    animation-name: location;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    display: inline-block;
+}
+
+@keyframes location{
+    0% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    20% {
+        transform: rotate(0deg);
+        color: aqua;
+    }
+    25% {
+        transform: rotate(15deg);
+        color: red;
+    }
+    50% {
+        transform: rotate(10deg);
+        color: white;
+    }
+    75% {
+        transform: rotate(5deg);
+        color: seagreen;
+    }
+    100% {
+        transform: rotate(0deg);
+        color: darkorange;
+    }
+}
+
+#main #location .container .row div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main #location .container .row div:nth-child(2) > img {
+    width: 18em;
+    height: 10em;
+} 
+
+#main #location .container .row div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+/* - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+    /* MEDIA QUERY >= 320PX */
+
+
+@media only screen and (min-width:320px) {
+
+    /* ABOUT US */
+
+#main #aboutUs {
+    height: 750px;
+}
+#main #aboutUs .container .row div:nth-child(1) > h1 {
+    line-height: 70px;
+}
+
+    /* PRODUCTS AND SERVICES */
+
+#main #productAndServices {
+    height: 750px;
+}    
+    
+#main #productAndServices .container .row div:nth-child(1) > h1 {
+    line-height: 70px;
+}    
+
+
+}
+
+    /* MEDIA QUERY >= 768PX */
+
+@media only screen and (min-width:768px) {
+
+    /* HOME (carousel) */
+.container-carousel {
+    width: 90%;
+}
+.carousel-inner .content-carousel > img {
+    height: 15em;
+}
+}     
+
+
+    /* MEDIA QUERY >= 992PX */
+
+@media only screen and (min-width:992px) {
+
+    /* HOME */
+
+#home .container .row .bosses {
+    flex-direction: row;
+    justify-content: space-between;
+}
+#home .container .row .bosses > img { /* img jefes */
+    width: 45%;
+    margin-top: 10px;
+}
+
+.container-carousel {
+    width: 100%;
+}
+    
+.carousel-inner .content-carousel > img {
+    height: 25em;
+}
+
+    /* ABOUT US */
+
+#main #aboutUs .container .row div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}   
+
+    /* PRODUCTS AND SERVICES */
+
+#main #productAndServices .container .row div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+    /* CONTACT */
+
+#main #contact .container .row > div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+#main #contact .container .row div:nth-child(2) > img {
+    width: 20em;
+} 
+
+#main #contact .container .row >  div:nth-child(3) {
+    margin-top: 0;
+}
+
+    /* LOCATION */
+
+#main #location .container .row div:nth-child(2) > img {
+    width: 20em;
+    height: 15em;
+}    
+
+}
